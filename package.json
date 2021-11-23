@@ -1,0 +1,23 @@
+{
+  "name": "Scooter-Challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PretziDizzy/Scooter-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PretziDizzy/Scooter-Challenge/issues"
+  },
+  "homepage": "https://github.com/PretziDizzy/Scooter-Challenge#readme",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}

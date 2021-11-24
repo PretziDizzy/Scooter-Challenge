@@ -1,7 +1,8 @@
-const Scooter = require('./scooter')
+const Scooter = require('..src/scooter')
+describe('scooter', () => 
 
 test('must have a serial number', ()=> {
-    const serialno = new Scooter()
+    const serialno = new Scooter('DFW', 'Preeti')
     expect(serialno.serialNumber).toBe(100)
 })
 
@@ -13,4 +14,6 @@ test('must have a station', ()=> {
 test('must have a user', ()=> {
     const user1 = new Scooter("DFW", "Preeti")
     expect(user1.user).toBe("Preeti")
+})
+
 })

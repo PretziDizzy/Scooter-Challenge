@@ -1,5 +1,5 @@
 class Scooter{
-    
+
     static serialNumberCount= 100
     constructor(station, user) {
         this.serialNumber = Scooter.serialNumberCount
